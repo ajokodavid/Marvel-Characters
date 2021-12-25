@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ajoko David" />
+    <meta
+      name="description"
+      content="Marvel, MCU, Javascript, HTML 5, Bootstrap 5"
+    />
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="bootstrap-5.0.1-dist/js/bootstrap.min.js" />
+    <title>Marvel Characters</title>
+  </head>
+  <body class="bg-warning">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4"></div>
+
+        <div class="col-md-4">
+          <div class="card mt-5 bg-primary">
+            <div class="card-body">
+              <input
+                type="text"
+                placeholder="Please input a marvel character name"
+                class="form-control"
+                name="name"
+                id="inputName"
+                aria-autocomplete="both"
+                autocomplete="name"
+              />
+              <button
+                type="button"
+                class="btn btn-info mt-3 text-danger"
+                id="btn"
+              >
+                <b>Generate</b>
+              </button><br><br><hr>
+
+              <div id="div1"><img id="image1" class="img-thumbnail img-fluid"></div>
+
+            </div>
+
+            <p class="ms-3 text-warning"><b>Name :<span class="name"> </span></b></p>
+            <p class="ms-3 text-warning"><b>Powers :<span class="powers"> </span></b></p>
+            <p class="ms-3 text-warning"><b>Origin :<span class="origin"> </span></b></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
